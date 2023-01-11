@@ -3,17 +3,23 @@
   }
 
   
-  .arriba {
+.arriba {
     transform: scale(1.2);
   }
 
-  .abajo {
+.abajo {
     transform: scale(0.8);
   }
-  .borde{
+.borde{
     border: 1px solid red;
   }
 
-  #1era{
-    background-color: red;
-  } 
+/* .card{
+    display: none;
+    }
+
+.card{
+    visibility: hidden;
+    
+}
+ */
