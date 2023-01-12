@@ -1,6 +1,3 @@
-
-
-
 let regionesChile = [
    {
       imagenRegion:'img/1.jpg/', 
@@ -83,3 +80,10 @@ let regionesChile = [
       Atractivos: '1. Parque Nacional Torres del Paine · 2. Glacier Grey · 3. Cementerio Municipal'
    }
 ]
+$("document").ready(function(){
+
+
+
+   $("mapa").hover(function(){ /*es necesario declararla como id?*/ 
+      $("cards").toogle();
+   })})

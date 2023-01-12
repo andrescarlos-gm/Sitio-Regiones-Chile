@@ -4,10 +4,12 @@
 
   
 .arriba {
+    visibility: visible!important;
     transform: scale(1.2);
   }
 
 .abajo {
+    visibility: visible!important;;
     transform: scale(0.8);
   }
 .borde{
@@ -16,10 +18,10 @@
 
 /* .card{
     display: none;
-    }
+    } */
 
 .card{
     visibility: hidden;
     
 }
- */
+

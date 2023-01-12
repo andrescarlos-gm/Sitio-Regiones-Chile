@@ -14,11 +14,11 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
   <div class="text-center">
     <map name="mapa" class="figuras">
-      <area shape="circle" coords="40,100,15" href=""/>
-      <area shape="circle" coords="90,100,15" href=""/>
-      <area shape="rectangle" coords="150,50,230,130" href=""/>
-      <area shape="rectangle" coords="270,50,390,150" href=""/>
-      <area shape="rectangle" coords="400,100,490,160" href=""/>
+      <area shape="circle" coords="40,100,15" href="" id=1era />
+      <area shape="circle" coords="90,100,15" href="" id=2da />
+      <area shape="rectangle" coords="150,50,230,130" href="" id=3era />
+      <area shape="rectangle" coords="270,50,390,150" href="" />
+      <area shape="rectangle" coords="400,100,490,160" href="" />
       <area shape="circle" coords="510,140,20" href="" />
       <area shape="circle" coords="550,130,20" href="" />
       <area shape="circle" coords="580,140,20" href="" />
@@ -43,7 +43,7 @@
       <img src="..." class="card-img-top shadow" alt="...">
       <div class="card-body">
         <h5 class="card-title">Región:</h5>
-        <p class="card-text" id="atract0ivos">Atractivos: </p>
+        <p class="card-text" id="atractivos">Atractivos: </p>
       </div>
     </div>
   </div>
@@ -57,8 +57,7 @@
 
 <script>
   $("area").hover(function () {
-    $(this).toggleClass('arriba').siblings().toggleClass('abajo')
-  })
-  </script>
+    $(".card").toggleClass('arriba').siblings().toggleClass('abajo')
+  })</script>
 
 </html>
