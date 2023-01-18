@@ -22,6 +22,15 @@
 
 .card{
     visibility: hidden;
+    background-color: darkseagreen;
     
 }
 
+#imagenRegion{
+  width: 400px;
+  align-self: center;
+  
+}
+#contenedor-grande{
+  display: flex
+}
