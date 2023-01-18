@@ -16,8 +16,6 @@ var array1 = [["Región de Arica y Parinacota", "img/1.jpg", "1. Morro de Arica 
 ["Región de Aysén del General Carlos Ibáñez del Campo", "img/15.jpg", "1. Salto Río Ibañez · 2. Embarcadero Puerto Ibañez · 3. Huellas Pioneras"],
 ["Región de Magallanes y de la Antártica Chilena", "img/16.jpg", "1. Parque Nacional Torres del Paine · 2. Glacier Grey · 3. Cementerio Municipal"]]
 
-
-
 function tarjetaRegion(valor) {
 
    var titulo = document.getElementById("tituloRegion");
